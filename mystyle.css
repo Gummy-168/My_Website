@@ -201,7 +201,7 @@ span:hover {
     text-shadow: 0px 4px 10px rgba(2, 210, 247, 0.728);
     ;
     font-weight: 800;
-    font-size: 2.5rem;
+    font-size: 1.5rem;
     transform: 1.2s;
 }
 
@@ -307,7 +307,7 @@ span:hover {
 }
 
 .Top-2:hover {
-    font-size: 3rem;
+    font-size: 2.5rem;
     color: aqua;
     text-shadow: 0px 4px 10px rgba(2, 210, 247, 0.728);
     transform: 2s;
