@@ -139,6 +139,10 @@ nav {
     border: 2px solid aqua;
 }
 
+.logo-1{
+    border-radius: 20px;
+}
+
 /*@media(prefers-reduced-montion){
     .hidden {
         transition: none;

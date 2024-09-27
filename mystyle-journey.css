@@ -29,9 +29,28 @@ section {
     transform: translateX(0);
 }
 
-.image-container {
-    position: relative;
-    display: inline-block;
+.gallery {
+    display: flex; 
+    justify-content: center;  
+    align-items: center;
+    flex-wrap: wrap; 
+    gap: 10px;
+}
+
+.image-block {
+    text-align: center; 
+    margin: 0 20px;
+}
+
+.image-text {
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+}
+
+.logo-1 {
+    width: 300px;
+    height: auto;
+    border-radius: 20px;
 }
 
 .center-image {
@@ -59,3 +78,16 @@ section {
 .centered-text:hover{
     color: aqua;
 }
+
+.logo:nth-child(2) {
+    transition-delay: 200ms;
+}
+
+.logo:nth-child(3) {
+    transition-delay: 600ms;
+}
+
+.logo:nth-child(4) {
+    transition-delay: 800ms;
+}
+    
