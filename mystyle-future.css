@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=BoonBoon&family=Kanit:wght@300&family=Mali:wght@300&family=Prompt:wght@300&family=Sukhumvit+Set:wght@300&display=swap');
+
 body {
     background-color: #131316;
     color: #ffffff;
@@ -7,7 +8,7 @@ body {
     margin: 0;
 }
 
-section{
+section {
     display: grid;
     place-items: center;
     align-content: center;
@@ -27,6 +28,74 @@ section{
     filter: blur(0);
     transform: translateX(0);
 }
+
+nav {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.text-container {
+
+    display: flex;
+    flex-direction: column;
+    margin-left: 25%;
+    margin-top: 15%;
+}
+
+.text-1 {
+    font-size: 2.5rem;
+    text-align: left;
+    transition: 0.2;
+}
+
+.text-1:hover{
+    color: aqua;
+    transition: 1;
+}
+
+
+.text-1-1 {
+    font-size: 1.5rem;
+    margin-top: 40px;
+    text-align: left;
+    transition: 0.2;
+}
+
+.text-1-1:hover{
+    color: aqua;
+    transition: 1;
+}
+
+.text-2{
+    font-size: 3rem;
+}
+
+.text-2-1 {
+    font-size: 1.5rem;
+    margin-left: 5%; 
+    margin-top: 25px; 
+    text-align: left; 
+    list-style-type: disc; 
+    padding-left: 10px; 
+}
+
+.text-2-1 li {
+    font-size: 1.5rem; 
+    margin: 5px 0; 
+    line-height: 1.5; 
+    color: #ffffff; 
+}
+
+
+
+.img {
+    width: 30%;
+    padding: 0;
+    height: auto;
+    margin: 0;
+}
+
 
 /*@media(prefers-reduced-montion){
     .hidden {

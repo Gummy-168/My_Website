@@ -2,8 +2,8 @@ body {
     background-color: rgb(0, 0, 0);
     font-family: "Times New Roman", Times, serif;
     margin: 0;
-    display: flex; /* ใช้ Flexbox */
-    flex-direction: column; /* แนวตั้ง */
+    display: flex;
+    flex-direction: column; 
 }
 
 .img {
@@ -15,10 +15,10 @@ body {
 }
 
 nav {
-    display: flex; /* ใช้ Flexbox ใน nav */
-    align-items: center; /* จัดให้อยู่กลางแนวตั้ง */
-    padding: 10px; /* เพิ่มระยะห่างภายใน */
-    background-color: #000000; /* เปลี่ยนสีพื้นหลัง */
+    display: flex; 
+    align-items: center; 
+    padding: 10px;
+    background-color: #000000;
 }
 
 .text {
@@ -27,15 +27,15 @@ nav {
     text-align: center;
     justify-content: center;
     display: flex;
-    flex-direction: column; /* จัดลิงก์ในแนวตั้ง */
+    flex-direction: column;
 }
 
 .text a {
     color: #ffffff;
     font-size: 2rem;
     text-decoration: none;
-    margin: 40px 0; /* เพิ่มระยะห่างระหว่างลิงก์ */
-    display: block; /* จัดให้ลิงก์แต่ละอันอยู่ในบรรทัดใหม่ */
+    margin: 40px 0; 
+    display: block; 
     transition: 0.3s ease;
 }
 
