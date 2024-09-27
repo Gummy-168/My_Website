@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=BoonBoon&family=Kanit:wght@300&family=Mali:wght@300&family=Prompt:wght@300&family=Sukhumvit+Set:wght@300&display=swap');
+
+body {
+    background-color: #131316;
+    color: #ffffff;
+    font-family: "Times New Roman", Times, serif;
+    padding: 0;
+    margin: 0;
+}
+
+
+
+
+
+
+
+.hidden {
+    opacity: 0;
+    filter: blur(5px);
+    transform: translate(-100%);
+    transition: all 2s;
+
+}
+
+.show {
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0);
+}

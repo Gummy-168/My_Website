@@ -322,3 +322,18 @@ span:hover {
       width: 100%;
     }
   }
+
+
+  .hidden {
+    opacity: 0;
+    filter: blur(5px);
+    transform: translate(-100%);
+    transition: all 2s;
+
+}
+
+.show {
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0);
+}
