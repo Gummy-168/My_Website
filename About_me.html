@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>My CSTU Story</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="mystyle.css">
+    <script defer src="all.js"></script>
+
+</head>
+
+<body class="bg">
+
+    <audio id="Avoice" autoplay loop>
+        <source id="background-audio" src="resources/The 1975 - Robbers.mp3" type="audio/mpeg">
+    </audio>
+
+    <div class=" b ">
+
+        <div class="f">
+            <header>
+                <nav>
+                    <a class="top"><span>Ratthaphum</span></a>
+                    <a href="index.html" id="home"><span>Home</span></a>
+                    <a href="#Video" id="about_me"><strong><span>Video About me</span></strong></a>
+                </nav>
+            </header>
+            <hr><br>
+            <section class="detail imagine_pro">
+                <div class="bimage hidden">
+                    <div class="detail-img">
+                        <blockquote><img src="resources/retouch_2024083016244024.jpg" alt="Titi" class="pimage">
+                        </blockquote>
+                    </div>
+                </div>
+
+                <div class="detail-content">
+                    <h1 class="hidden" style="font-size: 3rem;"> Good Morning <span>Teacher</span></h1>
+                    <h3 class="typing-text hidden">I'm a <span class="transpan">CS39</span></h3>
+                    <ul class="info hidden">
+                        <li><b>My name</b>: <span>Mr.Ratthaphum Sangkhamma</span></li>
+                        <li>Nick name: <span>Titi</span> </li>
+                        <li>Student ID: <span>6709616848</span></li>
+                        <li>Birth Day: <span>16th January</span></li>
+                        <li>Graduate: <span>Dara Academy</span></li>
+                        <li>Contact: <span><i>ig:</i> gummy_168</span></li>
+                        <li>Sports of interest: <span>Badminton</span></li>
+                    </ul>
+                    <blockquote>
+                        <div class="s-icons hidden">
+                            <a href="https://www.instagram.com/gummy_168?igsh=MXhnNWl3OWJvNnVndA==">
+                                <i class="fa-brands fa-instagram" style="color: aliceblue;"></i>
+                            </a>
+                        </div>
+                    </blockquote>
+
+                </div>
+            </section>
+            <di>
+                <nav>
+                    <br><button id="AButton" class="button_music" onclick="togglePlayPause()"><b>Play Music</b></button>
+                    <p class="text_credit"><br> Music by <span><strong>The 1975</strong></span> </p>
+                </nav>
+            </di>
+
+        </div>
+        <div id="Video">
+            <div class="f">
+                <p class="Top-2">Video about me</p>
+                <hr><br>
+                <div class="detail imagine_pro">
+                    <p><video id="video" controls muted loop width="1000" src="resources/VCS100.mp4"
+                            type="video/mp4"></video>
+                    </p>
+
+                </div>
+            </div>
+            <script>
+
+                const audio = document.getElementById('Avoice');
+                const video = document.getElementById('video');
+                const button = document.getElementById('AButton');
+
+
+                audio.volume = 0.3;
+
+
+                function togglePlayPause() {
+                    if (audio.paused) {
+                        audio.play();
+                        button.textContent = "Pause Music";
+                    } else {
+                        audio.pause();
+                        button.textContent = "Play Music";
+                    }
+                }
+
+
+                video.addEventListener('play', () => {
+                    audio.pause();
+                    button.textContent = "Play Music";
+                });
+
+
+                video.addEventListener('pause', () => {
+                    audio.play();
+                    button.textContent = "Pause Music";
+                });
+
+
+                video.addEventListener('ended', () => {
+                    audio.play();
+                    button.textContent = "Pause Music";
+                });
+            </script>
+
+        </div>
+
+    </div>
+
+
+
+
+
+</body>
+
+</html>
