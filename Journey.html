@@ -2,10 +2,11 @@
 <html lang="en">
 
 <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <link rel="stylesheet" href="mystyle-journey.css">
     <title>My Journey</title>
     <script defer src="all.js"></script>
+    <scroll-behavior: smooth;></scroll-behavior:>
 </head>
 
 <body>
@@ -15,20 +16,77 @@
             <h1 class="centered-text hidden">My Journey</h1>
         </div>
     </section>
+    <!--- <hr class="hidden">  -->
 
-    <section class=" gallery ">
+    <section class=" gallery " id="up">
         <div class="image-block logo hidden">
-            <h2 class="image-text">Dara Academy</h2>
-            <img src="resources/Journey/Dara acdemy.png" class="logo-1">
+
+            <h2 class="image-text">Finished studying at Dara Academy.</h2>
+            <a href="#Dara" class=""><img src="resources/Journey/2.png" class="logo-1"></a>
+
         </div>
         <div class="image-block logo hidden">
-            <h2 class="image-text">Dara Academy</h2>
-            <img src="resources/Journey/Dara acdemy.png" class="logo-1">
+            <h2 class="image-text">GAP</h2>
+            <a href="#Gap" class=""><img src="resources/Journey/GA.gif" class="logo-1"></a>
         </div>
         <div class="image-block logo hidden">
-            <h2 class="image-text">Dara Academy</h2>
-            <img src="resources/Journey/Dara acdemy.png" class="logo-1">
+            <h2 class="image-text">Thammasat University</h2>
+            <a href="#Thammasat" class=""><img src="resources/Journey/3.png" class="logo-1"></a>
         </div>
+    </section>
+    <hr class="hidden">
+
+
+    <section id="Dara">
+        <div class="box hidden">
+            <h1 class="text-2 hidden">
+                <img src="resources/Journey/Dara acdemy.png" width="80"
+                    style="vertical-align: middle;  border-radius: 10px;"> Dara Academy
+            </h1>
+            <ul class="text-2-1">
+                <li class="hidden ">Dara Academy is a great school in Chiang Mai.</li>
+                <li class="hidden ">I have finished at Dara Academy in 2022</li>
+                <li class="hidden ">At first, I was interested in medicine.</li>
+            </ul>
+        </div>
+        <a href="#up" class="click hidden">up</a>
+        <a href="index.html" class="click hidden">Back to Home page</a>
+    </section>
+    <hr class="hidden">
+
+    <section id="Gap">
+        <div class="box hidden">
+            <h1 class="text-2 hidden">
+                <img src="resources/Journey/GA.gif" width="80" style="vertical-align: middle;  border-radius: 10px;">
+                Space
+            </h1>
+            <ul class="text-2-1">
+                <li class="hidden ">Trying different things and giving myself opportunities.</li>
+                <li class="hidden ">Dropshipping</li>
+                <li class="hidden ">Trading (Forex)</li>
+                <li class="hidden ">NFT and Crypto currencies</li>
+                <li class="hidden ">Coding</li>
+                <li class="hidden ">Others</li>
+            </ul>
+        </div>
+        <a href="#up" class="click hidden">up</a>
+        <a href="index.html" class="click hidden">Back to Home page</a>
+    </section>
+    <hr class="hidden">
+
+    <section id="Thammasat">
+        <div class="box hidden">
+            <h1 class="text-2 hidden">
+                <img src="resources/Journey/3.png" width="80" style="vertical-align: middle;  border-radius: 10px;">
+                Thammasat University
+            </h1>
+            <ul class="text-2-1">
+                <li class="hidden ">Chose coding and got interested in AI.</li>
+                <li class="hidden ">Chose Thammasat University</li>
+            </ul>
+        </div>
+        <a href="#up" class="click hidden">up</a>
+        <a href="index.html" class="click hidden">Back to Home page</a>
     </section>
 </body>
 

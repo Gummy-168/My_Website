@@ -6,22 +6,26 @@
     <link rel="stylesheet" href="mystyle-future.css">
     <title>My Future</title>
     <script defer src="all.js"></script>
+    <scroll-behavior: smooth;></scroll-behavior:>
 </head>
 
 <body>
 
-    <nav>
+    <nav id="up">
         <img class="img" src="resources/BG-future.gif">
         <div class="text-container">
             <a class="text-1 hidden">My Future Plans</a>
             <p class="text-1-1 hidden">This page is to introduce my future plans</p>
             <p class="text-1-1 hidden">which is a rough outline for 2 years</p>
+            <a href="#yearone" class="text-1-1 hidden head-link">Year 1st</a>
+            <a href="#yeartwo" class="text-1-1 hidden head-link">Year 2nd</a>
+            <a href="#interest" class="text-1-1 hidden head-link">My interest</a>
         </div>
     </nav>
 
     <hr class="hidden">
 
-    <section class="hidden">
+    <section class="hidden" id="yearone">
         <h1 class="text-2 hidden">
             <img src="resources/Giphy-d.gif" width="50" style="vertical-align: middle;"> Year 1st
         </h1>
@@ -34,11 +38,12 @@
         </ul>
         <h1 class="hidden text-h1">Final year: Able to create a website and connect the front and backend, while also
             improving English skills</h1>
+        <a href="#up" class="click hidden">up</a>
         <a href="index.html" class="click hidden">Back to Home</a>
     </section>
     <hr class="hidden">
 
-    <section class="hidden">
+    <section class="hidden" id="yeartwo">
         <h1 class="text-2 hidden">
             <img src="resources/Y2-d.gif" width="50" style="vertical-align: middle;"> Year 2nd
         </h1>
@@ -52,14 +57,16 @@
         </ul>
         <h1 class="hidden text-h1">Final year:Have an understanding of AI and earn additional income, while also
             improving English skills</h1>
+        <a href="#up" class="click hidden">up</a>
         <a href="index.html" class="click hidden">Back to Home</a>
     </section>
     <hr class="hidden">
 
-    <section class="hidden">
+    <section class="hidden" id="interest">
         <h1 class="text-2 hidden"><img src="resources/AI-d.gif" width="100">My Interest</h1>
         <p class="hidden text-2-1">AI : Artificial Intelligence</p>
-    <a href="index.html" class="click hidden">Back to Home</a>
+        <a href="#up" class="click hidden">up</a>
+        <a href="index.html" class="click hidden">Back to Home</a>
     </section>
 
 
